@@ -1,5 +1,5 @@
 <!-- Documentation for Assignment 1 -->
-# Zaid Portfolio
+# Zaid Portofolio
 
 ## Overview
 This is a mini website that I created as my portfolio while studying at the RevoU Bootcamp.  
