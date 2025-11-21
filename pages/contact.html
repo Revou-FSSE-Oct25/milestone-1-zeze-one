@@ -19,29 +19,32 @@
     </header>
 
     <main>
-        <h2>
+        <div class="form-header">
+            <h2>
             Project Request Form
-        </h2>
-        <p>
-            <a href="assets/documents/sample.pdf" download="sample.pdf" >Download Our Portofolio</a>
-        </p>
+            </h2>
+            <p>
+                <a href="assets/documents/sample.pdf" download="sample.pdf" >Download Our Portofolio</a>
+            </p>
+        </div>
 
-        <form action="#">
-            <section id="personal-info">
-                <fieldset>
-                    <legend><strong>Personal Details</strong></legend>
-                    <label for="full-name">Full Name:</label> <br>
-                    <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required><br><br>
+        <div class="form-contents">   
+            <form action="#">
+                <section class="form-subtance" id="personal-info">
+                    <fieldset>
+                        <legend><strong>Personal Details</strong></legend>
+                        <label for="full-name">Full Name:</label> <br>
+                        <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required><br><br>
 
-                    <label for="email">Email Address:</label><br>
-                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required> <br><br>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required> <br><br>
 
-                    <label for="phone">Phone Number</label><br>
-                    <input type="tel" id="phone" name="phone" placeholder="+62 854-xxx-xxx" required>
-                </fieldset>
-            </section>
+                        <label for="phone">Phone Number</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="+62 854-xxx-xxx" required>
+                    </fieldset>
+                </section>
 
-            <section id="project-information"> 
+                <section class="form-subtance" id="project-information"> 
                     <fieldset>
                         <legend><strong>Project Information</strong></legend>
                         <label for="website">What type of website do you want to build?</label><br>
@@ -77,32 +80,34 @@
                         <label for="reference">Upload a reference image:</label>
                         <input type="file" name="reference" id="reference">
                     </fieldset>
-            </section>
+                </section>
 
-            <section id="timeline-project">
-               <fieldset>
-                    <legend><strong>Timeline and Expectations</strong></legend>
+                <section class="form-subtance" id="timeline-project">
+                    <fieldset>
+                        <legend><strong>Timeline and Expectations</strong></legend>
 
-                    <label for="start-date">Expected start date:</label><br>
-                    <input type="date" name="start-date" id="start-date" required> <br><br>
+                        <label for="start-date">Expected start date:</label><br>
+                        <input type="date" name="start-date" id="start-date" required> <br><br>
 
-                    <label for="duration">Estimated duration (weeks):</label><br>
-                    <input type="number" id="duration" name="duration" placeholder="e.g. 5"><br><br>
+                        <label for="duration">Estimated duration (weeks):</label><br>
+                        <input type="number" id="duration" name="duration" placeholder="e.g. 5"><br><br>
 
-                    <label for="preferred">Preferred work mode:</label><br>
-                    <input type="radio" id="remote" name="mode" value="remote" required>
-                    <label for="remote">Remote</label>
-                    <input type="radio" id="onsite" name="mode" value="onsite" required>
-                    <label for="onsite">Onsite</label>
-                    <input type="radio" id="hybrid" name="mode" value="hybrid" required>
-                    <label for="hybrid">Hybrid</label>
-               </fieldset>
+                        <label for="preferred">Preferred work mode:</label><br>
+                        <input type="radio" id="remote" name="mode" value="remote" required>
+                        <label for="remote">Remote</label>
+                        <input type="radio" id="onsite" name="mode" value="onsite" required>
+                        <label for="onsite">Onsite</label>
+                        <input type="radio" id="hybrid" name="mode" value="hybrid" required>
+                        <label for="hybrid">Hybrid</label>
+                    </fieldset>
 
-               <button>submit</button>
-               <button>reset</button>
+                    <button>submit</button>
+                    <button>reset</button>
                 
-            </section>
-        </form>
+                </section>
+            </form>
+        </div>
+        
     </main>
     <footer>
         <h5>© 2025 Zaid Al Lalikai</h5>
