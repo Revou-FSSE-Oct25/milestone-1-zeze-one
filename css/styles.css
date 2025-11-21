@@ -270,3 +270,61 @@ button {
     cursor: pointer;
 }
 
+/* TABLET */
+@media (max-width: 1024px) {
+    .home {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .home-left img {
+        width: 350px;
+    }
+
+    nav {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+/* HP */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .home-right h1 {
+        font-size: 2rem;
+    }
+
+    .home-left img {
+        width: 250px;
+    }
+
+    .home {
+        padding: 40px 20px;
+        gap: 30px;
+    }
+}
+
+/* HP KECIL */
+@media (max-width: 480px) {
+    header h1 a {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    .home-right h1 {
+        font-size: 1.6rem;
+    }
+
+    .home-left img {
+        width: 200px;
+    }
+}
