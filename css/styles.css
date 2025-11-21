@@ -163,7 +163,7 @@ header {
  }
 
  .latest-project {
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
  }
 
@@ -179,12 +179,6 @@ header {
     font-weight: bold;
 }
 
-.latest-project ul {
-    display: inline-block;
-    text-align: left;
-    margin-top: 15px;
-}
-
 .latest-project a {
     color: black;
     transition: 0.5;
@@ -192,5 +186,40 @@ header {
 
 .latest-project a:hover {
     color: #6C63FF;
+}
+
+.learning-journey{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.learning-journey h2 {
+    color: #6C63FF;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.learning-journey table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+    max-width: 700px;
+    font-size: 16px;
+}
+
+.learning-journey th,
+.learning-journey td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+
+.learning-journey thead {
+    background-color: #6C63FF;
+    color: white;
+}
+
+#backgrounds {
+    margin: 40px;
 }
 
