@@ -49,18 +49,25 @@ Display of personal photos as part of my photography interest.
 
 ## 🗂️ Structure of the Page
 
-milestone 1 zeze one
-├───index.html
-├───README.md
-├───assets/
-│   └───documents/
-├───css/
-│   └───styles.css
-└───images/
-└───pages/
-    ├───about.html
-    ├───contact.html
-    └───projects.html
+```
+milestone-1-zeze-one/
+├── index.html
+├── README.md
+│
+├── assets/
+│ └── documents/
+│ └── sample.pdf
+│
+├── css/
+│ └── styles.css
+│
+├── images/
+│
+└── pages/
+├── about.html
+├── contact.html
+└── projects.html
+```
 
 ## 🛠️ Technologies Used
 
