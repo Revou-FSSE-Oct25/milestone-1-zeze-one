@@ -20,6 +20,10 @@ header {
     align-items: center;
  }
 
+ main {
+    max-width: 1024px;
+ }
+
  header h1 a{
     font-size: 2rem;
     color: black
@@ -62,6 +66,7 @@ header {
  }
 
  .home-right h1 {
+    line-height: 4rem;
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 30px;
@@ -125,6 +130,7 @@ header {
 .about-img img{
     border-radius: 50px;
     object-fit: cover;
+    width: 50vw;
 }
 
 .about-bio p {
@@ -278,8 +284,18 @@ button {
         text-align: center;
     }
 
+    .home-right h1 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
     .home-left img {
         width: 350px;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: center;
     }
 
     nav {
@@ -296,18 +312,36 @@ button {
         text-align: center;
     }
 
+    .home {
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
     .home-right h1 {
         font-size: 2rem;
+        line-height: 2rem;
     }
 
     .home-left img {
         width: 250px;
     }
 
-    .home {
-        padding: 40px 20px;
-        gap: 30px;
+    .about-me {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 15px;
+        text-align: center; 
+        padding: 0;
+        margin-bottom: 30px;
     }
+
+    .about-img img {
+        width: 80vw;
+    }
+
+
+
+
 }
 
 /* HP KECIL */
