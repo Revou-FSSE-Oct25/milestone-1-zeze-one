@@ -11,6 +11,12 @@ body {
     background-color: whitesmoke;
     color: black;
     line-height: 1.6;
+    background-image: url("../images/Z Logo Emas.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.7); 
+    background-blend-mode: overlay;
 }
 
 header {
@@ -284,9 +290,19 @@ button {
         text-align: center;
     }
 
+    .home-right {
+        text-align: center;
+        width: 100%;
+    }
+
     .home-right h1 {
         font-size: 2rem;
         line-height: 3rem;
+    }
+
+    .home-right p {
+        margin: 0 auto;
+        max-width: 750px;
     }
 
     .home-left img {
@@ -323,7 +339,7 @@ button {
     }
 
     .home-left img {
-        width: 250px;
+        width: 70vw;
     }
 
     .about-me {
@@ -338,9 +354,6 @@ button {
     .about-img img {
         width: 80vw;
     }
-
-
-
 
 }
 
